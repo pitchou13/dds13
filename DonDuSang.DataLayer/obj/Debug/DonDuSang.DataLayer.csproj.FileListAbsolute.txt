@@ -1,0 +1,24 @@
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.dll.config
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.dll
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.pdb
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.Model.dll
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.Model.pdb
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.dll
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.pdb
+I:\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.dll.config
+I:\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.dll
+I:\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.pdb
+I:\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.Model.dll
+I:\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.Model.pdb
+I:\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.csprojResolveAssemblyReference.cache
+I:\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.dll
+I:\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.dll.config
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.DataLayer.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.Model.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Debug\DonDuSang.Model.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\obj\Debug\DonDuSang.DataLayer.pdb

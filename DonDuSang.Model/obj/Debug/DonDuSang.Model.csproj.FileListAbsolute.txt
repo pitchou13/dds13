@@ -1,0 +1,14 @@
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.Model\bin\Debug\DonDuSang.Model.dll
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.Model\bin\Debug\DonDuSang.Model.pdb
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.csprojResolveAssemblyReference.cache
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.dll
+C:\Users\Sofyane\Documents\Visual Studio 2012\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.pdb
+I:\DonDuSang\DonDuSang.Model\bin\Debug\DonDuSang.Model.dll
+I:\DonDuSang\DonDuSang.Model\bin\Debug\DonDuSang.Model.pdb
+I:\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.dll
+I:\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\bin\Debug\DonDuSang.Model.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\bin\Debug\DonDuSang.Model.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.csprojResolveAssemblyReference.cache

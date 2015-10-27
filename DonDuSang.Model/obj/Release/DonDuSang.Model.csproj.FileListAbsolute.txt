@@ -1,0 +1,4 @@
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\bin\Release\DonDuSang.Model.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\bin\Release\DonDuSang.Model.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Release\DonDuSang.Model.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Release\DonDuSang.Model.pdb

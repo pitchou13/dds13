@@ -1,0 +1,48 @@
+I:\DonDuSang\DonDuSang\bin\Debug\DonDuSang.exe.config
+I:\DonDuSang\DonDuSang\bin\Debug\DonDuSang.exe
+I:\DonDuSang\DonDuSang\bin\Debug\DonDuSang.pdb
+I:\DonDuSang\DonDuSang\bin\Debug\DonDuSang.DataLayer.dll
+I:\DonDuSang\DonDuSang\bin\Debug\DonDuSang.Model.dll
+I:\DonDuSang\DonDuSang\bin\Debug\DonDuSang.DataLayer.pdb
+I:\DonDuSang\DonDuSang\bin\Debug\DonDuSang.Model.pdb
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.Authentification2.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.Authentification.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.WaitForm1.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.FrmMain.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.ControleBiologique.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.Distribution.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.GestionUtilisateur.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.Prelevement.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.Acceuil.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.ServiceMedicale.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Properties.Resources.resources
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.csproj.GenerateResource.Cache
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.exe.licenses
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.exe
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.pdb
+I:\DonDuSang\DonDuSang\obj\Debug\DonDuSang.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\bin\Debug\DonDuSang.exe.config
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\bin\Debug\DonDuSang.exe
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\bin\Debug\DonDuSang.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\bin\Debug\DonDuSang.DataLayer.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\bin\Debug\DonDuSang.Model.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\bin\Debug\DonDuSang.DataLayer.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\bin\Debug\DonDuSang.Model.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.Authentification2.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.Authentification.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.UtilisateurEdit.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.WaitForm1.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.FrmMain.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.ControleBiologique.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.Distribution.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.GestionUtilisateur.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.Prelevement.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.Acceuil.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Modules.ServiceMedicale.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.exe.licenses
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.exe
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.DonneurEdit.resources

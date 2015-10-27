@@ -1,0 +1,8 @@
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Release\DonDuSang.DataLayer.dll.config
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Release\DonDuSang.DataLayer.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Release\DonDuSang.DataLayer.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Release\DonDuSang.Model.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\bin\Release\DonDuSang.Model.pdb
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\obj\Release\DonDuSang.DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\obj\Release\DonDuSang.DataLayer.dll
+C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.DataLayer\obj\Release\DonDuSang.DataLayer.pdb
