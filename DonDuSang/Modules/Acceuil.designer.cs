@@ -31,14 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Acceuil));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.biNouveauDonneur = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.biModifierDonneur = new DevExpress.XtraBars.BarButtonItem();
+            this.biSupprimerDonneur = new DevExpress.XtraBars.BarButtonItem();
+            this.biFermer = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -47,7 +46,11 @@
             this.ribbonPageGroup9 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup11 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.gridControlDonneur = new DevExpress.XtraGrid.GridControl();
+            this.gridViewDonneur = new DevExpress.XtraGrid.Views.Grid.GridView();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControlDonneur)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewDonneur)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonControl1
@@ -56,15 +59,16 @@
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
             this.biNouveauDonneur,
-            this.barButtonItem2,
-            this.barButtonItem3,
-            this.barButtonItem1});
+            this.biModifierDonneur,
+            this.biSupprimerDonneur,
+            this.biFermer});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.MaxItemId = 6;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
-            this.ribbonControl1.Size = new System.Drawing.Size(1158, 142);
+            this.ribbonControl1.Size = new System.Drawing.Size(973, 142);
+            this.ribbonControl1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.ribbonControl1_ItemClick);
             // 
             // biNouveauDonneur
             // 
@@ -72,26 +76,26 @@
             this.biNouveauDonneur.Id = 1;
             this.biNouveauDonneur.Name = "biNouveauDonneur";
             // 
-            // barButtonItem2
+            // biModifierDonneur
             // 
-            this.barButtonItem2.Caption = "Modifier";
-            this.barButtonItem2.Id = 2;
-            this.barButtonItem2.LargeGlyph = global::DonDuSang.Properties.Resources.icon_edit_32;
-            this.barButtonItem2.Name = "barButtonItem2";
+            this.biModifierDonneur.Caption = "Modifier";
+            this.biModifierDonneur.Id = 2;
+            this.biModifierDonneur.LargeGlyph = global::DonDuSang.Properties.Resources.icon_edit_32;
+            this.biModifierDonneur.Name = "biModifierDonneur";
             // 
-            // barButtonItem3
+            // biSupprimerDonneur
             // 
-            this.barButtonItem3.Caption = "Supprimer";
-            this.barButtonItem3.Id = 3;
-            this.barButtonItem3.LargeGlyph = global::DonDuSang.Properties.Resources.icon_delete_32;
-            this.barButtonItem3.Name = "barButtonItem3";
+            this.biSupprimerDonneur.Caption = "Supprimer";
+            this.biSupprimerDonneur.Id = 3;
+            this.biSupprimerDonneur.LargeGlyph = global::DonDuSang.Properties.Resources.icon_delete_32;
+            this.biSupprimerDonneur.Name = "biSupprimerDonneur";
             // 
-            // barButtonItem1
+            // biFermer
             // 
-            this.barButtonItem1.Caption = "Fermer";
-            this.barButtonItem1.Id = 5;
-            this.barButtonItem1.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.LargeGlyph")));
-            this.barButtonItem1.Name = "barButtonItem1";
+            this.biFermer.Caption = "Fermer";
+            this.biFermer.Id = 5;
+            this.biFermer.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("biFermer.LargeGlyph")));
+            this.biFermer.Name = "biFermer";
             // 
             // ribbonPage1
             // 
@@ -113,7 +117,7 @@
             // ribbonPageGroup2
             // 
             this.ribbonPageGroup2.AllowTextClipping = false;
-            this.ribbonPageGroup2.ItemLinks.Add(this.barButtonItem2);
+            this.ribbonPageGroup2.ItemLinks.Add(this.biModifierDonneur);
             this.ribbonPageGroup2.Name = "ribbonPageGroup2";
             this.ribbonPageGroup2.ShowCaptionButton = false;
             this.ribbonPageGroup2.Text = "Modifier";
@@ -121,18 +125,11 @@
             // ribbonPageGroup3
             // 
             this.ribbonPageGroup3.AllowTextClipping = false;
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem3);
-            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup3.ItemLinks.Add(this.biSupprimerDonneur);
+            this.ribbonPageGroup3.ItemLinks.Add(this.biFermer);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.ShowCaptionButton = false;
             this.ribbonPageGroup3.Text = "Actions";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(198, 318);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(677, 20);
-            this.textBox1.TabIndex = 1;
             // 
             // ribbonPageGroup4
             // 
@@ -190,15 +187,40 @@
             this.ribbonPageGroup11.ShowCaptionButton = false;
             this.ribbonPageGroup11.Text = "Fermer";
             // 
+            // gridControlDonneur
+            // 
+            this.gridControlDonneur.Cursor = System.Windows.Forms.Cursors.Default;
+            this.gridControlDonneur.Location = new System.Drawing.Point(69, 212);
+            this.gridControlDonneur.MainView = this.gridViewDonneur;
+            this.gridControlDonneur.MenuManager = this.ribbonControl1;
+            this.gridControlDonneur.Name = "gridControlDonneur";
+            this.gridControlDonneur.Size = new System.Drawing.Size(663, 323);
+            this.gridControlDonneur.TabIndex = 4;
+            this.gridControlDonneur.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridViewDonneur});
+            this.gridControlDonneur.DoubleClick += new System.EventHandler(this.gridControlDonneur_DoubleClick);
+            // 
+            // gridViewDonneur
+            // 
+            this.gridViewDonneur.GridControl = this.gridControlDonneur;
+            this.gridViewDonneur.Name = "gridViewDonneur";
+            this.gridViewDonneur.OptionsBehavior.Editable = false;
+            this.gridViewDonneur.OptionsFind.AllowFindPanel = false;
+            this.gridViewDonneur.OptionsView.ShowFooter = true;
+            this.gridViewDonneur.OptionsView.ShowGroupPanel = false;
+            // 
             // Acceuil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.gridControlDonneur);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "Acceuil";
-            this.Size = new System.Drawing.Size(1158, 568);
+            this.Size = new System.Drawing.Size(973, 568);
+            this.Load += new System.EventHandler(this.Acceuil_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControlDonneur)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewDonneur)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -212,9 +234,8 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.BarButtonItem biNouveauDonneur;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
-        private System.Windows.Forms.TextBox textBox1;
+        private DevExpress.XtraBars.BarButtonItem biModifierDonneur;
+        private DevExpress.XtraBars.BarButtonItem biSupprimerDonneur;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup5;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup6;
@@ -223,7 +244,9 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup9;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup10;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup11;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.BarButtonItem biFermer;
+        private DevExpress.XtraGrid.GridControl gridControlDonneur;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridViewDonneur;
 
     }
 }

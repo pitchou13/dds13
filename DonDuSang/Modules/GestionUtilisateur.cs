@@ -33,7 +33,6 @@ namespace DonDuSang.Modules
             gridViewUtilisateur.Columns[4].AppearanceHeader.TextOptions.HAlignment = HorzAlignment.Center;
             gridViewUtilisateur.Columns[5].AppearanceHeader.TextOptions.HAlignment = HorzAlignment.Center;
             gridViewUtilisateur.Columns[6].Visible = false;
-
         }
 
         private void ribbonControl1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

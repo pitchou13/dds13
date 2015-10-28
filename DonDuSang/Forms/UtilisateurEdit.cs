@@ -164,10 +164,5 @@ namespace DonDuSang.Forms
                 comboBoxEditType.Enabled = false;
             }
         }
-
-        void FillTextbox()
-        {
-            
-        }
     }
 }

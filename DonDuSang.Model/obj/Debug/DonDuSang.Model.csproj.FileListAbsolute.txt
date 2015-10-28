@@ -12,3 +12,8 @@ C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\bi
 C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.dll
 C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.pdb
 C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang.Model\obj\Debug\DonDuSang.Model.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang.Model\bin\Debug\DonDuSang.Model.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang.Model\bin\Debug\DonDuSang.Model.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang.Model\obj\Debug\DonDuSang.Model.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang.Model\obj\Debug\DonDuSang.Model.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang.Model\obj\Debug\DonDuSang.Model.pdb

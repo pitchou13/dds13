@@ -41,19 +41,29 @@
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.textEditNomDonneur = new DevExpress.XtraEditors.TextEdit();
-            this.textEditPrenomDonneur = new DevExpress.XtraEditors.TextEdit();
-            this.lcUser = new DevExpress.XtraEditors.LabelControl();
-            this.lbMdp = new DevExpress.XtraEditors.LabelControl();
-            this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
-            this.lbAdmin = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEditType = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.lbType = new DevExpress.XtraEditors.LabelControl();
+            this.textEditNom = new DevExpress.XtraEditors.TextEdit();
+            this.textEditPrenom = new DevExpress.XtraEditors.TextEdit();
+            this.lbNom = new DevExpress.XtraEditors.LabelControl();
+            this.lbPrenom = new DevExpress.XtraEditors.LabelControl();
+            this.lbDateNaissance = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEditSexe = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.lbSexe = new DevExpress.XtraEditors.LabelControl();
+            this.dateEditNaissance = new DevExpress.XtraEditors.DateEdit();
+            this.lbMail = new DevExpress.XtraEditors.LabelControl();
+            this.lbAdresse = new DevExpress.XtraEditors.LabelControl();
+            this.textEditMail = new DevExpress.XtraEditors.TextEdit();
+            this.textEditAdresse = new DevExpress.XtraEditors.TextEdit();
+            this.lbNumTel = new DevExpress.XtraEditors.LabelControl();
+            this.textEditNumTel = new DevExpress.XtraEditors.TextEdit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditNomDonneur.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditPrenomDonneur.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEditType.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditNom.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditPrenom.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEditSexe.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditNaissance.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditNaissance.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditMail.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditAdresse.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditNumTel.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbon
@@ -72,7 +82,7 @@
             this.ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
             this.ribbon.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
-            this.ribbon.Size = new System.Drawing.Size(449, 144);
+            this.ribbon.Size = new System.Drawing.Size(533, 144);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             // 
             // biFermer
@@ -163,108 +173,172 @@
             this.ribbonStatusBar.Location = new System.Drawing.Point(0, 412);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(449, 31);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(533, 31);
             // 
-            // textEditNomDonneur
+            // textEditNom
             // 
-            this.textEditNomDonneur.Location = new System.Drawing.Point(165, 178);
-            this.textEditNomDonneur.MenuManager = this.ribbon;
-            this.textEditNomDonneur.Name = "textEditNomDonneur";
-            this.textEditNomDonneur.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEditNomDonneur.Properties.Appearance.Options.UseFont = true;
-            this.textEditNomDonneur.Size = new System.Drawing.Size(140, 26);
-            this.textEditNomDonneur.TabIndex = 2;
+            this.textEditNom.Location = new System.Drawing.Point(124, 178);
+            this.textEditNom.MenuManager = this.ribbon;
+            this.textEditNom.Name = "textEditNom";
+            this.textEditNom.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEditNom.Properties.Appearance.Options.UseFont = true;
+            this.textEditNom.Size = new System.Drawing.Size(140, 26);
+            this.textEditNom.TabIndex = 2;
             // 
-            // textEditPrenomDonneur
+            // textEditPrenom
             // 
-            this.textEditPrenomDonneur.Location = new System.Drawing.Point(165, 226);
-            this.textEditPrenomDonneur.MenuManager = this.ribbon;
-            this.textEditPrenomDonneur.Name = "textEditPrenomDonneur";
-            this.textEditPrenomDonneur.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEditPrenomDonneur.Properties.Appearance.Options.UseFont = true;
-            this.textEditPrenomDonneur.Size = new System.Drawing.Size(140, 26);
-            this.textEditPrenomDonneur.TabIndex = 3;
+            this.textEditPrenom.Location = new System.Drawing.Point(369, 178);
+            this.textEditPrenom.MenuManager = this.ribbon;
+            this.textEditPrenom.Name = "textEditPrenom";
+            this.textEditPrenom.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEditPrenom.Properties.Appearance.Options.UseFont = true;
+            this.textEditPrenom.Size = new System.Drawing.Size(140, 26);
+            this.textEditPrenom.TabIndex = 3;
             // 
-            // lcUser
+            // lbNom
             // 
-            this.lcUser.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lcUser.Location = new System.Drawing.Point(36, 181);
-            this.lcUser.Name = "lcUser";
-            this.lcUser.Size = new System.Drawing.Size(33, 20);
-            this.lcUser.TabIndex = 4;
-            this.lcUser.Text = "Nom";
+            this.lbNom.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNom.Location = new System.Drawing.Point(36, 181);
+            this.lbNom.Name = "lbNom";
+            this.lbNom.Size = new System.Drawing.Size(33, 20);
+            this.lbNom.TabIndex = 4;
+            this.lbNom.Text = "Nom";
             // 
-            // lbMdp
+            // lbPrenom
             // 
-            this.lbMdp.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMdp.Location = new System.Drawing.Point(36, 229);
-            this.lbMdp.Name = "lbMdp";
-            this.lbMdp.Size = new System.Drawing.Size(51, 20);
-            this.lbMdp.TabIndex = 5;
-            this.lbMdp.Text = "Prénom";
+            this.lbPrenom.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPrenom.Location = new System.Drawing.Point(296, 181);
+            this.lbPrenom.Name = "lbPrenom";
+            this.lbPrenom.Size = new System.Drawing.Size(51, 20);
+            this.lbPrenom.TabIndex = 5;
+            this.lbPrenom.Text = "Prénom";
             // 
-            // radioGroup1
+            // lbDateNaissance
             // 
-            this.radioGroup1.Location = new System.Drawing.Point(165, 274);
-            this.radioGroup1.MenuManager = this.ribbon;
-            this.radioGroup1.Name = "radioGroup1";
-            this.radioGroup1.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroup1.Properties.Appearance.Options.UseFont = true;
-            this.radioGroup1.Properties.Columns = 2;
-            this.radioGroup1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(true, "Oui"),
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(false, "Non")});
-            this.radioGroup1.Size = new System.Drawing.Size(108, 29);
-            this.radioGroup1.TabIndex = 6;
-            this.radioGroup1.SelectedIndexChanged += new System.EventHandler(this.radioGroup1_SelectedIndexChanged);
+            this.lbDateNaissance.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDateNaissance.Location = new System.Drawing.Point(21, 243);
+            this.lbDateNaissance.Name = "lbDateNaissance";
+            this.lbDateNaissance.Size = new System.Drawing.Size(99, 20);
+            this.lbDateNaissance.TabIndex = 7;
+            this.lbDateNaissance.Text = "Date naissance";
             // 
-            // lbAdmin
+            // comboBoxEditSexe
             // 
-            this.lbAdmin.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAdmin.Location = new System.Drawing.Point(36, 279);
-            this.lbAdmin.Name = "lbAdmin";
-            this.lbAdmin.Size = new System.Drawing.Size(98, 20);
-            this.lbAdmin.TabIndex = 7;
-            this.lbAdmin.Text = "Administrateur";
-            // 
-            // comboBoxEditType
-            // 
-            this.comboBoxEditType.Enabled = false;
-            this.comboBoxEditType.Location = new System.Drawing.Point(165, 320);
-            this.comboBoxEditType.MenuManager = this.ribbon;
-            this.comboBoxEditType.Name = "comboBoxEditType";
-            this.comboBoxEditType.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEditType.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEditType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.comboBoxEditSexe.Enabled = false;
+            this.comboBoxEditSexe.Location = new System.Drawing.Point(369, 240);
+            this.comboBoxEditSexe.MenuManager = this.ribbon;
+            this.comboBoxEditSexe.Name = "comboBoxEditSexe";
+            this.comboBoxEditSexe.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEditSexe.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEditSexe.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEditType.Properties.Items.AddRange(new object[] {
-            "Controle Biologique"});
-            this.comboBoxEditType.Size = new System.Drawing.Size(140, 26);
-            this.comboBoxEditType.TabIndex = 10;
+            this.comboBoxEditSexe.Properties.Items.AddRange(new object[] {
+            "Masculin",
+            "Féminin"});
+            this.comboBoxEditSexe.Size = new System.Drawing.Size(140, 26);
+            this.comboBoxEditSexe.TabIndex = 10;
             // 
-            // lbType
+            // lbSexe
             // 
-            this.lbType.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbType.Enabled = false;
-            this.lbType.Location = new System.Drawing.Point(36, 323);
-            this.lbType.Name = "lbType";
-            this.lbType.Size = new System.Drawing.Size(32, 20);
-            this.lbType.TabIndex = 11;
-            this.lbType.Text = "Type";
+            this.lbSexe.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSexe.Enabled = false;
+            this.lbSexe.Location = new System.Drawing.Point(296, 246);
+            this.lbSexe.Name = "lbSexe";
+            this.lbSexe.Size = new System.Drawing.Size(31, 20);
+            this.lbSexe.TabIndex = 11;
+            this.lbSexe.Text = "Sexe";
+            // 
+            // dateEditNaissance
+            // 
+            this.dateEditNaissance.EditValue = null;
+            this.dateEditNaissance.Location = new System.Drawing.Point(124, 240);
+            this.dateEditNaissance.MenuManager = this.ribbon;
+            this.dateEditNaissance.Name = "dateEditNaissance";
+            this.dateEditNaissance.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEditNaissance.Properties.Appearance.Options.UseFont = true;
+            this.dateEditNaissance.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditNaissance.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditNaissance.Size = new System.Drawing.Size(140, 26);
+            this.dateEditNaissance.TabIndex = 14;
+            // 
+            // lbMail
+            // 
+            this.lbMail.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMail.Location = new System.Drawing.Point(296, 310);
+            this.lbMail.Name = "lbMail";
+            this.lbMail.Size = new System.Drawing.Size(32, 20);
+            this.lbMail.TabIndex = 20;
+            this.lbMail.Text = "Mail.";
+            // 
+            // lbAdresse
+            // 
+            this.lbAdresse.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbAdresse.Location = new System.Drawing.Point(36, 310);
+            this.lbAdresse.Name = "lbAdresse";
+            this.lbAdresse.Size = new System.Drawing.Size(52, 20);
+            this.lbAdresse.TabIndex = 19;
+            this.lbAdresse.Text = "Adresse";
+            // 
+            // textEditMail
+            // 
+            this.textEditMail.Location = new System.Drawing.Point(369, 307);
+            this.textEditMail.MenuManager = this.ribbon;
+            this.textEditMail.Name = "textEditMail";
+            this.textEditMail.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEditMail.Properties.Appearance.Options.UseFont = true;
+            this.textEditMail.Size = new System.Drawing.Size(140, 26);
+            this.textEditMail.TabIndex = 18;
+            // 
+            // textEditAdresse
+            // 
+            this.textEditAdresse.Location = new System.Drawing.Point(124, 307);
+            this.textEditAdresse.MenuManager = this.ribbon;
+            this.textEditAdresse.Name = "textEditAdresse";
+            this.textEditAdresse.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEditAdresse.Properties.Appearance.Options.UseFont = true;
+            this.textEditAdresse.Size = new System.Drawing.Size(140, 26);
+            this.textEditAdresse.TabIndex = 17;
+            // 
+            // lbNumTel
+            // 
+            this.lbNumTel.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNumTel.Location = new System.Drawing.Point(36, 374);
+            this.lbNumTel.Name = "lbNumTel";
+            this.lbNumTel.Size = new System.Drawing.Size(56, 20);
+            this.lbNumTel.TabIndex = 22;
+            this.lbNumTel.Text = "Num Tél";
+            // 
+            // textEditNumTel
+            // 
+            this.textEditNumTel.Location = new System.Drawing.Point(124, 371);
+            this.textEditNumTel.MenuManager = this.ribbon;
+            this.textEditNumTel.Name = "textEditNumTel";
+            this.textEditNumTel.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEditNumTel.Properties.Appearance.Options.UseFont = true;
+            this.textEditNumTel.Size = new System.Drawing.Size(140, 26);
+            this.textEditNumTel.TabIndex = 21;
             // 
             // DonneurEdit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 443);
-            this.Controls.Add(this.lbType);
-            this.Controls.Add(this.comboBoxEditType);
-            this.Controls.Add(this.lbAdmin);
-            this.Controls.Add(this.radioGroup1);
-            this.Controls.Add(this.lbMdp);
-            this.Controls.Add(this.lcUser);
-            this.Controls.Add(this.textEditPrenomDonneur);
-            this.Controls.Add(this.textEditNomDonneur);
+            this.ClientSize = new System.Drawing.Size(533, 443);
+            this.Controls.Add(this.lbNumTel);
+            this.Controls.Add(this.textEditNumTel);
+            this.Controls.Add(this.lbMail);
+            this.Controls.Add(this.lbAdresse);
+            this.Controls.Add(this.textEditMail);
+            this.Controls.Add(this.textEditAdresse);
+            this.Controls.Add(this.dateEditNaissance);
+            this.Controls.Add(this.lbSexe);
+            this.Controls.Add(this.comboBoxEditSexe);
+            this.Controls.Add(this.lbDateNaissance);
+            this.Controls.Add(this.lbPrenom);
+            this.Controls.Add(this.lbNom);
+            this.Controls.Add(this.textEditPrenom);
+            this.Controls.Add(this.textEditNom);
             this.Controls.Add(this.ribbonStatusBar);
             this.Controls.Add(this.ribbon);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -275,10 +349,14 @@
             this.StatusBar = this.ribbonStatusBar;
             this.Text = "Donneur";
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditNomDonneur.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textEditPrenomDonneur.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEditType.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditNom.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditPrenom.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEditSexe.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditNaissance.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditNaissance.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditMail.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditAdresse.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEditNumTel.Properties)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -298,13 +376,19 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup2;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;
-        private DevExpress.XtraEditors.TextEdit textEditNomDonneur;
-        private DevExpress.XtraEditors.TextEdit textEditPrenomDonneur;
-        private DevExpress.XtraEditors.LabelControl lcUser;
-        private DevExpress.XtraEditors.LabelControl lbMdp;
-        private DevExpress.XtraEditors.RadioGroup radioGroup1;
-        private DevExpress.XtraEditors.LabelControl lbAdmin;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEditType;
-        private DevExpress.XtraEditors.LabelControl lbType;
+        private DevExpress.XtraEditors.TextEdit textEditNom;
+        private DevExpress.XtraEditors.TextEdit textEditPrenom;
+        private DevExpress.XtraEditors.LabelControl lbNom;
+        private DevExpress.XtraEditors.LabelControl lbPrenom;
+        private DevExpress.XtraEditors.LabelControl lbDateNaissance;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEditSexe;
+        private DevExpress.XtraEditors.LabelControl lbSexe;
+        private DevExpress.XtraEditors.DateEdit dateEditNaissance;
+        private DevExpress.XtraEditors.LabelControl lbMail;
+        private DevExpress.XtraEditors.LabelControl lbAdresse;
+        private DevExpress.XtraEditors.TextEdit textEditMail;
+        private DevExpress.XtraEditors.TextEdit textEditAdresse;
+        private DevExpress.XtraEditors.LabelControl lbNumTel;
+        private DevExpress.XtraEditors.TextEdit textEditNumTel;
     }
 }
