@@ -70,12 +70,20 @@ namespace DonDuSang.Modules
 
         private void DeleteUser()
         {
-            if (gridViewUtilisateur == null) return;
-            var utilisateur = (Utilisateur)gridViewUtilisateur.GetFocusedRow();
-            new RepositoryUtilisateur().Remove(utilisateur);
-            MessageBox.Show("Supression réussite");
-            RefreshDataSource();
-
+            if (gridViewUtilisateur != null)
+            {
+                var resultat = MessageBox.Show("Voulez vous vraiment supprimer cet utilisateur ?", "Attention",
+                MessageBoxButtons.YesNo);
+                if (resultat != DialogResult.Yes) return;
+                var utilisateur = (Utilisateur)gridViewUtilisateur.GetFocusedRow();
+                new RepositoryUtilisateur().Remove(utilisateur);
+                MessageBox.Show("Supression réussite");
+                RefreshDataSource();
+            }
+            else
+            {
+                MessageBox.Show("Données inexistants");
+            }
         }
 
         private void EditUser(Utilisateur user)

@@ -140,6 +140,9 @@ namespace DonDuSang.Forms
 
         private void biSupprimer_ItemClick(object sender, ItemClickEventArgs e)
         {
+            var resultat = MessageBox.Show("Voulez vous vraiment supprimer cet utilisateur ?", "Attention",
+                MessageBoxButtons.YesNo);
+            if (resultat != DialogResult.Yes) return;
             new RepositoryUtilisateur().Remove(IdUser);
             MessageBox.Show("Supression réussite");
             Close();

@@ -96,10 +96,12 @@ namespace DonDuSang.Forms
 
         private void biSupprimer_ItemClick(object sender, ItemClickEventArgs e)
         {
+            var resultat = MessageBox.Show("Voulez vous vraiment supprimer cet donneur ?", "Attention",
+                MessageBoxButtons.YesNo);
+            if (resultat != DialogResult.Yes) return;
             new RepositoryDonneur().Remove(IdDonneur);
             MessageBox.Show("Supression réussite");
             Close();
-
         }
 
         private void biFermer_ItemClick(object sender, ItemClickEventArgs e)

@@ -74,12 +74,20 @@ namespace DonDuSang.Modules
 
         private void DeleteDonneur()
         {
-            if (gridViewDonneur == null) return;
-            var donneur = (Donneur)gridViewDonneur.GetFocusedRow();
-            new RepositoryDonneur().Remove(donneur);
-            MessageBox.Show("Supression réussite");
-            RefreshDataSource();
-
+            if (gridViewDonneur != null)
+            {
+                var resultat = MessageBox.Show("Voulez vous vraiment supprimer cet donneur ?", "Attention",
+                MessageBoxButtons.YesNo);
+                if (resultat != DialogResult.Yes) return;
+                var donneur = (Donneur)gridViewDonneur.GetFocusedRow();
+                new RepositoryDonneur().Remove(donneur);
+                MessageBox.Show("Supression réussite");
+                RefreshDataSource();
+            }
+            else
+            {
+                MessageBox.Show("Données inexistants");
+            }
         }
 
         private void EditDonneur(Donneur don)
