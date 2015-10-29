@@ -286,6 +286,11 @@
             this.textEditMail.Name = "textEditMail";
             this.textEditMail.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEditMail.Properties.Appearance.Options.UseFont = true;
+            this.textEditMail.Properties.Mask.BeepOnError = true;
+            this.textEditMail.Properties.Mask.EditMask = "[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+            this.textEditMail.Properties.Mask.IgnoreMaskBlank = false;
+            this.textEditMail.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.RegEx;
+            this.textEditMail.Properties.Mask.UseMaskAsDisplayFormat = true;
             this.textEditMail.Size = new System.Drawing.Size(140, 26);
             this.textEditMail.TabIndex = 18;
             // 
@@ -315,6 +320,9 @@
             this.textEditNumTel.Name = "textEditNumTel";
             this.textEditNumTel.Properties.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEditNumTel.Properties.Appearance.Options.UseFont = true;
+            this.textEditNumTel.Properties.Mask.BeepOnError = true;
+            this.textEditNumTel.Properties.Mask.EditMask = "\\d(5|6|7)\\d\\d-\\d\\d-\\d\\d-\\d\\d";
+            this.textEditNumTel.Properties.Mask.MaskType = DevExpress.XtraEditors.Mask.MaskType.RegEx;
             this.textEditNumTel.Size = new System.Drawing.Size(140, 26);
             this.textEditNumTel.TabIndex = 21;
             // 
