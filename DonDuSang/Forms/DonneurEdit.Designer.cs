@@ -224,7 +224,6 @@
             // 
             // comboBoxEditSexe
             // 
-            this.comboBoxEditSexe.Enabled = false;
             this.comboBoxEditSexe.Location = new System.Drawing.Point(369, 240);
             this.comboBoxEditSexe.MenuManager = this.ribbon;
             this.comboBoxEditSexe.Name = "comboBoxEditSexe";
@@ -241,7 +240,6 @@
             // lbSexe
             // 
             this.lbSexe.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSexe.Enabled = false;
             this.lbSexe.Location = new System.Drawing.Point(296, 246);
             this.lbSexe.Name = "lbSexe";
             this.lbSexe.Size = new System.Drawing.Size(31, 20);
@@ -268,9 +266,9 @@
             this.lbMail.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMail.Location = new System.Drawing.Point(296, 310);
             this.lbMail.Name = "lbMail";
-            this.lbMail.Size = new System.Drawing.Size(32, 20);
+            this.lbMail.Size = new System.Drawing.Size(29, 20);
             this.lbMail.TabIndex = 20;
-            this.lbMail.Text = "Mail.";
+            this.lbMail.Text = "Mail";
             // 
             // lbAdresse
             // 
@@ -306,9 +304,9 @@
             this.lbNumTel.Appearance.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNumTel.Location = new System.Drawing.Point(36, 374);
             this.lbNumTel.Name = "lbNumTel";
-            this.lbNumTel.Size = new System.Drawing.Size(56, 20);
+            this.lbNumTel.Size = new System.Drawing.Size(78, 20);
             this.lbNumTel.TabIndex = 22;
-            this.lbNumTel.Text = "Num Tél";
+            this.lbNumTel.Text = "Numéro Tél";
             // 
             // textEditNumTel
             // 

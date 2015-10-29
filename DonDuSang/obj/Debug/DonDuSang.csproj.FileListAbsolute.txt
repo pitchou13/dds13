@@ -47,8 +47,12 @@ C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debu
 C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.pdb
 C:\Users\user\documents\visual studio 2013\Projects\DonDuSang\DonDuSang\obj\Debug\DonDuSang.Forms.DonneurEdit.resources
 C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.exe.config
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.exe
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.DataLayer.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.Model.dll
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.DataLayer.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.Model.pdb
 C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.csprojResolveAssemblyReference.cache
 C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.Forms.Authentification2.resources
 C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.Forms.Authentification.resources
@@ -65,9 +69,5 @@ C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\ob
 C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.Properties.Resources.resources
 C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.csproj.GenerateResource.Cache
 C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.exe.licenses
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.exe
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.pdb
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.DataLayer.dll
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.Model.dll
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.DataLayer.pdb
-C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\bin\Debug\DonDuSang.Model.pdb
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.exe
+C:\Users\user\Documents\Visual Studio 2013\Projects\DonDuSang\dds13\DonDuSang\obj\Debug\DonDuSang.pdb

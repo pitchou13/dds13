@@ -56,7 +56,7 @@ namespace DonDuSang.Modules
 
         private void CreateUser()
         {
-            var utilisater = new UtilisateurEdit(new Utilisateur(), true);
+            var utilisater = new UtilisateurEdit(new Utilisateur(),true);
             utilisater.ShowDialog();
             RefreshDataSource();
         }

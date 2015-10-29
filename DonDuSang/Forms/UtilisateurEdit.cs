@@ -11,7 +11,7 @@ namespace DonDuSang.Forms
         private Guid IdUser { get; set; }
         private readonly Utilisateur _utilisateur = new Utilisateur();
         readonly bool _newUser = true;
-        public UtilisateurEdit(Utilisateur utilisateur,bool newUser)
+        public UtilisateurEdit(Utilisateur utilisateur, bool newUser)
         {
             InitializeComponent();
             if (!newUser)
@@ -38,16 +38,16 @@ namespace DonDuSang.Forms
                 if (radioGroup1.EditValue.Equals(true))
                 {
                     var utilisateur = FactoryUtilisateur.CreateUser(textEditUser.Text, textEditMdp.Text, true, true);
-                    new RepositoryUtilisateur().Save(utilisateur);                          
+                    new RepositoryUtilisateur().Save(utilisateur);
                     MessageBox.Show("Ajout réussis");
                 }
                 else
                 {
                     var utilisateur = FactoryUtilisateur.CreateUser(textEditUser.Text, textEditMdp.Text, false, comboBoxEditType.SelectedText);
                     new RepositoryUtilisateur().Save(utilisateur);
-                    MessageBox.Show("mise à jours réussis");
+                    MessageBox.Show("Ajout réussis");
                 }
-                
+
             }
             else
             {
@@ -62,7 +62,7 @@ namespace DonDuSang.Forms
                         Type = null
                     };
                     new RepositoryUtilisateur().Save(utilisateur);
-                    MessageBox.Show("Ajout réussis");
+                    MessageBox.Show("mise à jours réussis");
                 }
                 else
                 {
@@ -75,7 +75,7 @@ namespace DonDuSang.Forms
                         Type = comboBoxEditType.SelectedText
                     };
                     new RepositoryUtilisateur().Save(utilisateur);
-                    MessageBox.Show("mise à jours réussis");
+                    MessageBox.Show("Mise à jours réussis");
                 }
             }
         }
@@ -94,7 +94,7 @@ namespace DonDuSang.Forms
                 {
                     var utilisateur = FactoryUtilisateur.CreateUser(textEditUser.Text, textEditMdp.Text, false, comboBoxEditType.SelectedText);
                     new RepositoryUtilisateur().Save(utilisateur);
-                    MessageBox.Show("mise à jours réussis");
+                    MessageBox.Show("Ajout réussis");
                 }
 
             }
@@ -111,7 +111,7 @@ namespace DonDuSang.Forms
                         Type = null
                     };
                     new RepositoryUtilisateur().Save(utilisateur);
-                    MessageBox.Show("Ajout réussis");
+                    MessageBox.Show("Mise à jours réussis");
                 }
                 else
                 {
